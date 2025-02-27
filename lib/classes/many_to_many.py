@@ -16,6 +16,8 @@ class Article:
         return self._title
     
     @title.setter
+    #? make a setter but make it just pass
+    #? coulnt i just delete it? test wouldnt pass
     def title(self, new_value):
         pass
 
